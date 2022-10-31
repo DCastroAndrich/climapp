@@ -1,15 +1,11 @@
 import React from "react";
-import SearchBar from "./components/SearchBar";
-import WeatherContainer from "./layouts/weather-container/WeatherContainer";
+import AppContainer from "./layouts/app-container/AppContainer";
 
 const App = () => {
   return (
-    <div className="flex h-screen w-full flex-col items-center bg-gray-500">
-      <h1 className="font-sans font-bold">CLIMAPP</h1>
-      <p>Aplicacion para el cima en tu locacion.</p>
-      <SearchBar />
-      <WeatherContainer />
-    </div>
+   <>
+   <AppContainer/>
+   </>
   );
 };
 

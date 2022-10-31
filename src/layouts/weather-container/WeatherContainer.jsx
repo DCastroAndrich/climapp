@@ -1,12 +1,12 @@
 import React from "react";
-import WeatherMain from "../../components/WeatherMain";
-import WeatherStateCard from "../../components/WeatherStateCard";
+import Temperature from "../../components/Temperature";
+import WeatherImage from "../../components/WeatherImage";
 
 const WeatherContainer = () => {
   return (
-    <div className="flex h-1/3 w-3/4 flex-row items-center justify-evenly rounded-md bg-teal-300">
-      <WeatherStateCard />
-      <WeatherMain />
+    <div className="w3/4 flex h-fit flex-col items-center bg-transparent text-center">
+      <WeatherImage />
+      <Temperature />
     </div>
   );
 };
